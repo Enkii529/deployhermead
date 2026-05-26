@@ -1,0 +1,106 @@
+#!/usr/bin/env bash
+
+# Simple CLI wrapper for Enki Browser 2 API
+# Uses curl under the hood.  Default base URL: http://127.0.0.1:4318
+# Can be overridden with ENKI_BROWSER_URL environment variable.
+
+set -euo pipefail
+
+BASE_URL=${ENKI_BROWSER_URL:-http://127.0.0.1:4318}
+
+usage() {
+  cat <<'EOF'
+Usage: enki <command> [args]
+Commands:
+  health                  - GET /health
+  policy                  - GET /policy
+  open <url>              - POST /navigate with url
+  text                    - GET /visible-text
+  dom                     - GET /dom-summary
+  console                 - GET /console
+  network                 - GET /network-failures
+  screenshot              - POST /screenshot/save
+  runs                    - GET /runs
+  run <url>               - POST /run navigating to <url> (screenshot&text&dom)
+  click <selector>        - POST /click with selector
+  fill <selector> <value> - POST /fill with selector and value
+  press <key>             - POST /press with key
+  content                 - POST /content (returns page HTML)
+  inspect-run <runId>     - GET /runs/:id to view run artifacts
+EOF
+  exit 1
+}
+
+if [[ $# -lt 1 ]]; then
+  usage
+fi
+
+COMMAND=$1
+shift || true
+
+case "$COMMAND" in
+  health)
+    curl -s "$BASE_URL/health"
+    ;;
+  policy)
+    curl -s "$BASE_URL/policy"
+    ;;
+  open)
+    if [[ $# -lt 1 ]]; then usage; fi
+    URL_ARG="$1"
+    curl -s -X POST "$BASE_URL/navigate" -H 'Content-Type: application/json' -d "{\"url\":\"$URL_ARG\"}"
+    ;;
+  text)
+    curl -s "$BASE_URL/visible-text"
+    ;;
+  dom)
+    curl -s "$BASE_URL/dom-summary"
+    ;;
+  console)
+    curl -s "$BASE_URL/console"
+    ;;
+  network)
+    curl -s "$BASE_URL/network-failures"
+    ;;
+  screenshot)
+    curl -s -X POST "$BASE_URL/screenshot/save"
+    ;;
+  runs)
+    curl -s "$BASE_URL/runs"
+    ;;
+  run)
+    if [[ $# -lt 1 ]]; then usage; fi
+    URL_ARG="$1"
+    # Example run: navigate, screenshot, text, dom
+    curl -s -X POST "$BASE_URL/run" -H 'Content-Type: application/json' \
+      -d "{\"url\":\"$URL_ARG\",\"actions\":[{\"type\":\"screenshot\"},{\"type\":\"visibleText\"},{\"type\":\"domSummary\"}]}"
+    ;;
+  click)
+    if [[ $# -lt 1 ]]; then usage; fi
+    SEL="$1"
+    curl -s -X POST "$BASE_URL/click" -H 'Content-Type: application/json' -d "{\"selector\":\"$SEL\"}"
+    ;;
+  fill)
+    if [[ $# -lt 2 ]]; then usage; fi
+    SEL="$1"
+    VALUE="$2"
+    curl -s -X POST "$BASE_URL/fill" -H 'Content-Type: application/json' -d "{\"selector\":\"$SEL\",\"value\":\"$VALUE\"}"
+    ;;
+  press)
+    if [[ $# -lt 1 ]]; then usage; fi
+    KEY="$1"
+    curl -s -X POST "$BASE_URL/press" -H 'Content-Type: application/json' -d "{\"key\":\"$KEY\"}"
+    ;;
+  content)
+    curl -s -X POST "$BASE_URL/content" -H 'Content-Type: application/json' -d '{}'
+    ;;
+  inspect-run)
+    if [[ $# -lt 1 ]]; then usage; fi
+    RUN_ID="$1"
+    curl -s "$BASE_URL/runs/$RUN_ID"
+    ;;
+  *)
+    echo "Unknown command: $COMMAND"
+    usage
+    ;;
+esac

@@ -1,0 +1,16 @@
+{
+  "name": "jasonead-site-rebuild",
+  "version": "1.0.0",
+  "description": "This is a **static HTML/CSS/JS** version of the future jasonead.com website built inside the OpenClaw workspace.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vercel": "^53.1.0"
+  }
+}

@@ -1,0 +1,44 @@
+Daily AI Briefing – May 18, 2025
+
+General AI News:
+
+1. Companies followed by the AI 2K
+• Ranks companies by how many AI influencers follow them.
+
+2. Digg AI News, before it trends
+• ECHO method improves command‑line agents by adding environment prediction loss to RL.
+• AI agent toolkit includes coding CLI, unified LLM API, TUI/web UI libs, and Slack bot support.
+
+3. Devin Auto‑Triage
+• AI first‑responder with long‑term memory for monitoring bugs, alerts, and incidents.
+• Investigates issues and returns context, suggested next steps, or even PRs.
+
+4. GitHub stars spotlight – Articraft & OpenAI Parameter Golf
+• Articraft: Python system that generates articulated 3D assets via LLM‑driven code synthesis.
+• OpenAI Parameter Golf: competition to train the smallest LLM (<16 MB) in <10 minutes on 8×H100 GPUs.
+
+5. Cursor AI Composer 2.5
+• Billed as the most powerful model yet, better at sustained work on long‑running tasks.
+• More reliable at following complex instructions.
+
+6. Claude Code adds /radio command
+• Streams music via Claude FM directly in the terminal.
+• Adds fun and personality; some see it as a gimmick, others enjoy it.
+
+7. OpenAI personal finance tool draws criticism
+• AI experts flag data errors and possible “side quest spotting.”
+• Highlights gaps in connector reliability.
+
+8. “AI models are the core product”
+• Technologist viewpoint tracked by top AI voices on X.
+• Sparks debate about where value accrues in the AI stack.
+
+9. OpenAI releases Codex preview in ChatGPT mobile apps
+• Brings code generation capabilities to iOS and Android.
+• Early user reactions are mixed but optimistic.
+
+10. AI timeline predicts iPhone killer and advanced manufacturing by 2029
+• Forecasts a shift toward AI‑native consumer devices and smart factories.
+• Suggests AI will disrupt both personal tech and industrial sectors.
+
+That concludes today’s brief.

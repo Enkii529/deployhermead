@@ -1,0 +1,8 @@
+01:41:34 ENTER: queued interrupt msg='can you help me set up a different provider api from my nvid', agent_running=True
+01:41:34 interrupt fired: msg='can you help me set up a different provider api from my nvid', children=0, parent._interrupt=True
+19:00:09 ENTER: queued interrupt msg='it started as openclaw command center then became hermes whe', agent_running=True
+19:00:09 interrupt fired: msg='it started as openclaw command center then became hermes whe', children=0, parent._interrupt=True
+20:00:39 ENTER: queued interrupt msg='approved to do what you need to do to complete prior request', agent_running=True
+20:00:39 interrupt fired: msg='approved to do what you need to do to complete prior request', children=0, parent._interrupt=True
+13:22:47 ENTER: queued interrupt msg='are you having success?', agent_running=True
+13:22:47 interrupt fired: msg='are you having success?', children=0, parent._interrupt=True

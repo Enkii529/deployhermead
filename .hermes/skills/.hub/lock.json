@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "installed": {
+    "docker-management": {
+      "source": "official",
+      "identifier": "official/devops/docker-management",
+      "trust_level": "builtin",
+      "scan_verdict": "dangerous",
+      "content_hash": "sha256:b9cffd3f6e84f4c0",
+      "install_path": "devops/docker-management",
+      "files": [
+        "SKILL.md"
+      ],
+      "metadata": {},
+      "installed_at": "2026-05-08T06:31:25.516258+00:00",
+      "updated_at": "2026-05-08T06:31:25.516273+00:00"
+    },
+    "openclaw-migration": {
+      "source": "official",
+      "identifier": "official/migration/openclaw-migration",
+      "trust_level": "builtin",
+      "scan_verdict": "dangerous",
+      "content_hash": "sha256:dcf3ff6203c3ee41",
+      "install_path": "migration/openclaw-migration",
+      "files": [
+        "SKILL.md",
+        "scripts/openclaw_to_hermes.py"
+      ],
+      "metadata": {},
+      "installed_at": "2026-05-08T06:32:18.948926+00:00",
+      "updated_at": "2026-05-08T06:32:18.948934+00:00"
+    },
+    "fastmcp": {
+      "source": "official",
+      "identifier": "official/mcp/fastmcp",
+      "trust_level": "builtin",
+      "scan_verdict": "dangerous",
+      "content_hash": "sha256:55e291556dc92bb0",
+      "install_path": "mcp/fastmcp",
+      "files": [
+        "SKILL.md",
+        "templates/database_server.py",
+        "templates/file_processor.py",
+        "templates/api_wrapper.py",
+        "references/fastmcp-cli.md",
+        "scripts/scaffold_fastmcp.py"
+      ],
+      "metadata": {},
+      "installed_at": "2026-05-08T06:32:20.885903+00:00",
+      "updated_at": "2026-05-08T06:32:20.885914+00:00"
+    },
+    "mcporter": {
+      "source": "official",
+      "identifier": "official/mcp/mcporter",
+      "trust_level": "builtin",
+      "scan_verdict": "caution",
+      "content_hash": "sha256:b76f64a0e82ea216",
+      "install_path": "mcp/mcporter",
+      "files": [
+        "SKILL.md"
+      ],
+      "metadata": {},
+      "installed_at": "2026-05-08T06:32:22.563473+00:00",
+      "updated_at": "2026-05-08T06:32:22.563485+00:00"
+    },
+    "duckduckgo-search": {
+      "source": "official",
+      "identifier": "official/research/duckduckgo-search",
+      "trust_level": "builtin",
+      "scan_verdict": "caution",
+      "content_hash": "sha256:593bc4256aa4718d",
+      "install_path": "research/duckduckgo-search",
+      "files": [
+        "SKILL.md",
+        "scripts/duckduckgo.sh"
+      ],
+      "metadata": {},
+      "installed_at": "2026-05-08T06:32:24.374795+00:00",
+      "updated_at": "2026-05-08T06:32:24.374801+00:00"
+    },
+    "searxng-search": {
+      "source": "official",
+      "identifier": "official/research/searxng-search",
+      "trust_level": "builtin",
+      "scan_verdict": "caution",
+      "content_hash": "sha256:087905c4390fab8e",
+      "install_path": "research/searxng-search",
+      "files": [
+        "SKILL.md",
+        "scripts/searxng.sh"
+      ],
+      "metadata": {},
+      "installed_at": "2026-05-08T06:32:26.322983+00:00",
+      "updated_at": "2026-05-08T06:32:26.322991+00:00"
+    },
+    "honcho": {
+      "source": "official",
+      "identifier": "official/autonomous-ai-agents/honcho",
+      "trust_level": "builtin",
+      "scan_verdict": "dangerous",
+      "content_hash": "sha256:e27066821bc275e9",
+      "install_path": "autonomous-ai-agents/honcho",
+      "files": [
+        "SKILL.md"
+      ],
+      "metadata": {},
+      "installed_at": "2026-05-08T06:32:33.657477+00:00",
+      "updated_at": "2026-05-08T06:32:33.657490+00:00"
+    }
+  }
+}

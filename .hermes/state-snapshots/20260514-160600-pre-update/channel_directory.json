@@ -1,0 +1,33 @@
+{
+  "updated_at": "2026-05-14T11:57:14.573191",
+  "platforms": {
+    "telegram": [
+      {
+        "id": "1719735842",
+        "name": "MillionMenMindset Ead",
+        "type": "dm",
+        "thread_id": null
+      }
+    ],
+    "discord": [],
+    "whatsapp": [],
+    "slack": [],
+    "signal": [],
+    "mattermost": [],
+    "matrix": [],
+    "homeassistant": [],
+    "email": [],
+    "sms": [],
+    "dingtalk": [],
+    "feishu": [],
+    "wecom": [],
+    "wecom_callback": [],
+    "weixin": [],
+    "bluebubbles": [],
+    "qqbot": [],
+    "yuanbao": [],
+    "google_chat": [],
+    "irc": [],
+    "teams": []
+  }
+}

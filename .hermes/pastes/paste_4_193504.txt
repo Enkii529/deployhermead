@@ -1,0 +1,7 @@
+y
+openclaw@openclaw-VB:~$ /home/openclaw/.hermes/hermes-agent/venv/bin/pip install flask==3.0.2  
+bash: /home/openclaw/.hermes/hermes-agent/venv/bin/pip: No such file or directory
+openclaw@openclaw-VB:~$ systemctl --user start hermes-dashboard.service
+Warning: The unit file, source configuration file or drop-ins of hermes-dashboard.service changed on disk. Run 'systemctl --user daemon-reload' to reload units.
+openclaw@openclaw-VB:~$  systemctl --user restart hermes-gateway.service
+openclaw@openclaw-VB:~$ 

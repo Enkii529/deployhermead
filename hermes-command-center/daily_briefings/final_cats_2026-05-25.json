@@ -1,0 +1,252 @@
+{
+  "General AI Headlines": [
+    {
+      "title": "Companies followed by the AI 2K \u00b7 Digg",
+      "url": "https://digg.com/ai/x/rankings/companies",
+      "description": "Companies ranked by how many of the AI 2K follow them.",
+      "position": 1
+    },
+    {
+      "title": "AI Rankings \u00b7 Digg",
+      "url": "https://digg.com/ai/x/rankings",
+      "description": "People actively involved in AI across research, startups, investing, engineering, and media, ranked from the X social graph.",
+      "position": 2
+    },
+    {
+      "title": "A Stanford PhD student's study finds 11 major AI ... - Digg",
+      "url": "https://digg.com/ai/kk6j3hdh",
+      "description": "5 days ago \u00b7 Models endorsed lying or illegal actions 47 percent of time",
+      "position": 3
+    },
+    {
+      "title": "Trump indicates he will postpone an executive order on AI after determining cert...",
+      "url": "https://digg.com/ai/iic3mjom",
+      "description": "U.S. AI lead already produces measurable economic gains and job growth.",
+      "position": 4
+    },
+    {
+      "title": "Google's AI Overview responds to single-word verb queries such as 'dis...",
+      "url": "https://digg.com/ai/4q9z788z?rank=27",
+      "description": "The pattern appeared in multiple X posts and a TechCrunch report.",
+      "position": 5
+    },
+    {
+      "title": "Charts show sharp post-ChatGPT rises in creative and scientific output with week...",
+      "url": "https://digg.com/ai/anf0uyq7?rank=19",
+      "description": "Federal pro se litigants rose to 17 percent of filings.",
+      "position": 6
+    },
+    {
+      "title": "Huawei claims its new LogicFolding manufacturing pathway bypasses EUV lithograph...",
+      "url": "https://digg.com/ai/yu6ten4k",
+      "description": "The hybrid bonding process will first target Kirin mobile chips.",
+      "position": 7
+    },
+    {
+      "title": "xAI releases Grok Build 0.1.219, fixing kitty terminal layout issues and paste-r...",
+      "url": "https://digg.com/ai/hlcz47lw?rank=19",
+      "description": "Elon Musk highlighted the team's seven-day-a-week development schedule.",
+      "position": 8
+    },
+    {
+      "title": "Jeff Bezos says artificial intelligence will elevate people ...",
+      "url": "https://digg.com/ai/lncy45l3",
+      "description": "5 days ago \u00b7 Bezos linked efficiency gains to potential deflationary effects and cautioned against early regulation.",
+      "position": 9
+    },
+    {
+      "title": "AI Automation Drives Human Hiring Surge At Every From 4 To 30",
+      "url": "https://digg.com/ai/knnl3u8c",
+      "description": "4 days ago \u00b7 AI Automation Drives Human Hiring Surge At Every From 4 To 30 - tracked by 2 authors on X.",
+      "position": 10
+    },
+    {
+      "title": "Deep Hardware Integration Beats Portable AI Stacks For Speed",
+      "url": "https://digg.com/ai/4gl3kx6w",
+      "description": "May 16, 2026 \u00b7 Users back hardware-specific semantics in AI stacks for superior performance while criticizing hardware-agnostic designs as delivering only portable mediocrity.",
+      "position": 11
+    },
+    {
+      "title": "Project Genie Turns Google Maps Street View Into Interactive ...",
+      "url": "https://digg.com/ai/a3ja1b21",
+      "description": "3 days ago \u00b7 Many users are excited by Project Genie turning Google Maps Street View into interactive AI worlds because it transforms familiar streets into dynamic playgrounds, game engines, and grounded spatial AI experiences.",
+      "position": 12
+    }
+  ],
+  "Open Source Creative AI Tools": [
+    {
+      "title": "GitHub - jamiepine/voicebox: The open-source AI voice studio. Clone...",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "Voicebox is a local-first AI voice studio \u2014 a free and open-source alternative to ElevenLabs and WisprFlow in one app.Voice cloning and preset voices \u2014 zero-shot cloning from a reference sample, or 50+ curated preset voices via Kokoro and Qwen CustomVoice.",
+      "position": 1
+    },
+    {
+      "title": "Chatterbox: Open Source Text-to-Speech | Resemble AI",
+      "url": "https://www.resemble.ai/learn/models/chatterbox",
+      "description": "Chatterbox is Resemble AI's free, open-source TTS model, MIT-licensed with emotion control, real-time generation, and zero-shot voice cloning from 5 seconds of audio.Chatterbox: the leading family of open source AI voice models, cloned from five seconds of audio.",
+      "position": 2
+    },
+    {
+      "title": "RVC Web UI - FREE, Open Source AI Voice Cloning... - YouTube",
+      "url": "https://www.youtube.com/watch?v=g4td-n8-QZk",
+      "description": "Unlimited, free voice conversion software that runs on your own pc! While the RVC WebUI (RVC-Project - Retrieval-based-Voice-Conversion-WebUI) has been out f...",
+      "position": 3
+    },
+    {
+      "title": "myshell-ai/OpenVoice \u00b7 Hugging Face",
+      "url": "https://huggingface.co/myshell-ai/OpenVoice",
+      "description": "myshell-ai%2FOpenVoice | Trendshift. OpenVoice, a versatile instant voice cloning approach that requires only a short audio clip from the reference speaker to replicate their voice and generate speech in multiple languages.",
+      "position": 4
+    },
+    {
+      "title": "NiceVoice - Free AI Voice Cloning Tool",
+      "url": "https://voice-clone-web-test.pages.dev/",
+      "description": "Clone your voice in seconds with our cutting-edge AI technology. Create natural-sounding speech from any text with your own voice. Free and secure voice cloning service.",
+      "position": 5
+    },
+    {
+      "title": "HappyHorse \u2013 #1 Open-Source AI Video Generator",
+      "url": "https://happy-horses.io/",
+      "description": "HappyHorse #1 Open-Source AI Video Model. Video & Audio, United in One Pass. Start Generating. Generate with AI. Generate Video Now120 credits. Generation takes ~5\u20139 min per video. You can browse other tabs while waiting. 480p: 6 credits/s \u00b7 720p...",
+      "position": 1
+    },
+    {
+      "title": "Mochi 1: AI Video Generator",
+      "url": "https://mochi1ai.com/",
+      "description": "Mochi 1 is a groundbreaking open-source AI model that's changing the game in video generation. It's not just another AI tool - it's a powerhouse that creates stunning, high-quality videos from simple text prompts.",
+      "position": 2
+    },
+    {
+      "title": "Wan 2.1 - Free Open-Source AI Video Generator | Wan AI",
+      "url": "https://wan-ai.app/",
+      "description": "Developer-Friendly Open-Source Framework. Leverage Wan 2.1's fully open-source architecture to customize, extend, and seamlessly integrate powerful AI video generation capabilities into your existing development workflows and applications. Smart Prompt Enhancement.",
+      "position": 3
+    },
+    {
+      "title": "Happy Horse 1.0 & 2.0 | Open-Source AI Video Model & Generator",
+      "url": "https://happyhourse.com/",
+      "description": "Try the Happy Horse AI video generator. Generate clips from text or image prompts, compare directions quickly, and use Happy Horse 1.0 as a practical workflow for concept videos, product stories, and creative testing. The model is currently under heavy load.",
+      "position": 4
+    },
+    {
+      "title": "The BEST open-source AI video generator is here... - YouTube",
+      "url": "https://www.youtube.com/watch?v=he8nLSvY-yU",
+      "description": "Genmo Mochi 1 and Rhymes Allegro full testing & review. Free open source AI video generators have caught up! #ainews #ai #aivideo Thanks to our sponsor Abacu...",
+      "position": 5
+    }
+  ],
+  "New LLM Models": [
+    {
+      "title": "New LLM models now available in the control panel -",
+      "url": "https://serverspace.us/about/news/new_llm/",
+      "description": "This lineup lets you match the model to the job: lighter LLMs for high-volume, cost-sensitive tasks like chatbots and internal assistants, and ...",
+      "position": 1
+    },
+    {
+      "title": "New LLM models now available in the control panel -",
+      "url": "https://serverspace.io/about/news/new-llm/",
+      "description": "This lineup lets you match the model to the job: lighter LLMs for high-volume, cost-sensitive tasks like chatbots and internal assistants, and ...",
+      "position": 2
+    },
+    {
+      "title": "Top 5 LLM Models of 2025 You Should Know",
+      "url": "https://oderpy.com/top-llm-models/",
+      "description": "Top LLM models 2025 are driving the rapid evolution of artificial intelligence (AI), leading the charge in this technological revolution.",
+      "position": 3
+    },
+    {
+      "title": "Why LLM models are no longer interchangeable",
+      "url": "https://www.coderabbit.ai/blog/the-end-of-one-sized-fits-all-prompts-why-llm-models-are-no-longer-interchangeable",
+      "description": "In this blog, we\u2019ll explore three surprising takeaways from this new era: why your LLM is now a statement about your product, how models now have ...",
+      "position": 4
+    },
+    {
+      "title": "What new LLM model types would like to see in the future? -",
+      "url": "https://community.openai.com/t/what-new-llm-model-types-would-like-to-see-in-the-future/1050308",
+      "description": "What new LLM model types would like to see in the future? ... text to encryption is fun, I saw it but got lazy in getting data to train a LLM on it",
+      "position": 5
+    },
+    {
+      "title": "15 Best LLM Models in 2025 | Top AI Language Models Ranked",
+      "url": "https://dextralabs.com/blog/best-llm-models/",
+      "description": "Choosing the right Large Language Model (LLM) in 2025 comes down to what you truly need\u2014whether it\u2019s reliable factual answers, multilingual ...",
+      "position": 6
+    }
+  ],
+  "Open Source LLM Models": [
+    {
+      "title": "Top Open-Source LLMs to Watch in Early 2025 - Datawizz",
+      "url": "https://datawizz.ai/blog/top-5-open-source-llms-3b-8b-parameters-to-watch-in-early-2025",
+      "description": "But as of early 2025, these five open-source LLMs (3B-8B) stand out as the best options for enterprises, developers, and AI researchers. 1. Llama 3.2-8B Instruct \u2013 The Most Versatile Open LLM. Hugging Face Model Page.",
+      "position": 1
+    },
+    {
+      "title": "OpenAI enters open-source AI race with new reasoning... | Fortune",
+      "url": "https://fortune.com/2025/08/05/openai-launches-open-source-llm-ai-model-gpt-oss-120b-deepseek/",
+      "description": "Ever since the open source DeepSeek R1 shook the industry in January with its reasoning capabilities at a much lower cost, many other Chinese models have followed suit\u2014including Alibaba\u2019s Qwen and Moonshot AI\u2019s Kimi models.",
+      "position": 2
+    },
+    {
+      "title": "Best Open-Source LLM Models in 2026: Coding, Local, Agentic AI...",
+      "url": "https://huggingface.co/blog/daya-shankar/open-source-llms",
+      "description": "Best Open-Source LLM for Agentic AI. Agentic AI means the model does more than answer a prompt. It plans, calls tools, reads files, writes code, checks results, fixes mistakes, and continues working across many steps.",
+      "position": 3
+    },
+    {
+      "title": "Running an open-source LLM in 2025",
+      "url": "https://blog.mozilla.ai/running-an-open-source-llm-in-2025/",
+      "description": "On top of transparency, open-source LLMs offer a compelling advantage: Control. Organizations continue to pivot towards fully-open datasets for use in LLM training (Mozilla EleutherAI). Additionally, having access to the model weights can give deepe...",
+      "position": 4
+    },
+    {
+      "title": "The Rise of Open Source LLMs: Addressing Concerns and Embracing...",
+      "url": "https://www.linkedin.com/pulse/rise-open-source-llms-addressing-concerns-embracing-progress-phanse-lb9sc",
+      "description": "It's worth noting that the OWASP Top 10 for LLM Applications, which outlines critical security risks, was only released in late 2023 and updated for 2025. This recent focus on LLM security suggests a growing awareness of the potential risks, rather than an inherent flaw in open source models...",
+      "position": 5
+    },
+    {
+      "title": "Best Open Source LLM in 2026: Rankings, Benchmarks... | BenchLM.ai",
+      "url": "https://benchlm.ai/blog/posts/best-open-source-llm",
+      "description": "Best open source LLM by use case. Best for math and reasoning. GLM-5 (Reasoning) is the clear winner. Aime 2025: 98. Hmmt 2025: 95. Brumo 2025: 96. Math500: 92. These are near-perfect scores on graduate-level competition math. No other open weight model comes close.",
+      "position": 6
+    }
+  ],
+  "New Cloud Models": [
+    {
+      "title": "LLM Rankings | OpenRouter",
+      "url": "https://openrouter.ai/rankings",
+      "description": "LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
+      "position": 1
+    },
+    {
+      "title": "OpenRouter Free Models: All 28 Listed (May 2026) - costgoat.com",
+      "url": "https://costgoat.com/pricing/openrouter-free-models",
+      "description": "21 hours ago \u00b7 All free AI models on OpenRouter \u2014 zero cost, no credit card. Compare context lengths, capabilities, and rate limits. Updated live.",
+      "position": 2
+    },
+    {
+      "title": "These Were The Top Open-source Models On OpenRouter In 2025",
+      "url": "https://officechai.com/ai/these-were-the-top-open-source-models-on-openrouter-in-2025/",
+      "description": "Dec 26, 2025 \u00b7 The open-source AI landscape underwent a dramatic transformation in 2025, with usage data from OpenRouter revealing a newly diversified ecosystem where multiple model families now command substantial market share. While last year\u2019s dominant players still lead in raw volume, the rapid ascent of ...",
+      "position": 3
+    },
+    {
+      "title": "OpenRouter Rankings April 2026: Top AI Models by Data",
+      "url": "https://www.digitalapplied.com/blog/openrouter-rankings-april-2026-top-ai-models-data",
+      "description": "Apr 1, 2026 \u00b7 Analysis of OpenRouter April 2026 rankings. MiMo-V2-Pro #1 with 4.65T tokens, Xiaomi at 22.3% market share, Qwen 3.6 Plus #5, and model usage trends.",
+      "position": 4
+    },
+    {
+      "title": "OpenRouter Review 2025: One API to Rule Them All?",
+      "url": "https://deepreviewai.com/reviews/2026-02-05_openrouter-review/",
+      "description": "Feb 5, 2026 \u00b7 OpenRouter is a gateway. You integrate once. Point your OpenAI SDK at their endpoint. Suddenly you have access to 300+ models from dozens of providers. Want to test GPT-4o, Claude, and DeepSeek without managing three API accounts? That\u2019s the pitch. What\u2019s included: Drop-in OpenAI SDK compatibility Automatic fallbacks when providers fail One bill instead of many Smart routing to cheapest ...",
+      "position": 5
+    },
+    {
+      "title": "Nvidia announces new AI models and technologies at CES 2025",
+      "url": "https://smartcontentreport.com/nvidia-nemotron-cosmos-announced/",
+      "description": "Nvidia has unveiled multiple new AI initiatives at CES 2025, centered around their Nemotron model families and Cosmos World Foundation Models.",
+      "position": 1
+    }
+  ]
+}

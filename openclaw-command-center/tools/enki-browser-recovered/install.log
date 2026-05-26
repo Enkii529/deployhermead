@@ -1,0 +1,44 @@
+Downloading Firefox 146.0.1 (playwright firefox v1509) from https://cdn.playwright.dev/dbazure/download/playwright/builds/firefox/1509/firefox-ubuntu-24.04.zip
+|                                                                                |   0% of 99.5 MiB
+|■■■■■■■■                                                                        |  10% of 99.5 MiB
+|■■■■■■■■■■■■■■■■                                                                |  20% of 99.5 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 99.5 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 99.5 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 99.5 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 99.5 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 99.5 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 99.5 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 99.5 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 99.5 MiB
+Firefox 146.0.1 (playwright firefox v1509) downloaded to /home/openclaw/.cache/ms-playwright/firefox-1509
+Downloading WebKit 26.0 (playwright webkit v2248) from https://cdn.playwright.dev/dbazure/download/playwright/builds/webkit/2248/webkit-ubuntu-24.04.zip
+|                                                                                |   0% of 99.2 MiB
+|■■■■■■■■                                                                        |  10% of 99.2 MiB
+|■■■■■■■■■■■■■■■■                                                                |  20% of 99.2 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 99.2 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 99.2 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 99.2 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 99.2 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 99.2 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 99.2 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 99.2 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 99.2 MiB
+WebKit 26.0 (playwright webkit v2248) downloaded to /home/openclaw/.cache/ms-playwright/webkit-2248
+Playwright Host validation warning: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo npx playwright install-deps                 ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libavif16                   ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/home/openclaw/openclaw-command-center/tools/enki-browser-recovered/node_modules/playwright-core/lib/server/registry/dependencies.js:269:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Registry._validateHostRequirements (/home/openclaw/openclaw-command-center/tools/enki-browser-recovered/node_modules/playwright-core/lib/server/registry/index.js:991:14)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/home/openclaw/openclaw-command-center/tools/enki-browser-recovered/node_modules/playwright-core/lib/server/registry/index.js:1113:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/home/openclaw/openclaw-command-center/tools/enki-browser-recovered/node_modules/playwright-core/lib/server/registry/index.js:1102:7)
+    at async i.<anonymous> (/home/openclaw/openclaw-command-center/tools/enki-browser-recovered/node_modules/playwright-core/lib/cli/program.js:174:7)

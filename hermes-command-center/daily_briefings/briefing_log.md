@@ -1,0 +1,1 @@
+2026-05-26 | General: 4, Creative: 8, LLM: 5, OpenSourceLLM: 5, Cloud: 5 | Total stories: 27 | Audio: briefing_2026-05-26.mp3 | Worksheet: worksheet_2026-05-26.md | Script: kokoro_script_2026-05-26.txt

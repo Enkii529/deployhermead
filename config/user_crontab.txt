@@ -1,0 +1,3 @@
+# 0 4 * * * /home/openclaw/.openclaw/agency-agents/accessibility-auditor/scripts/preferences-audit.sh >> /home/openclaw/.openclaw/agency-agents/accessibility-auditor/logs/preferences-audit.log 2>&1
+# @reboot /home/openclaw/start-n8n.sh >> /home/openclaw/n8n-startup.log 2>&1
+# * * * * * /home/openclaw/.local/bin/hermes cron tick

@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Command Center Panel (Preview)</title>
+  <style>
+    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 18px; }
+    .row { display: flex; gap: 16px; flex-wrap: wrap; }
+    .card { border: 1px solid #ddd; border-radius: 10px; padding: 14px; min-width: 320px; flex: 1; }
+    h1 { margin: 0 0 8px 0; font-size: 20px; }
+    h2 { margin: 0 0 8px 0; font-size: 16px; }
+    pre { background: #0b1020; color: #e6e6e6; padding: 12px; border-radius: 10px; overflow:auto; max-height: 240px; }
+    .muted { color: #666; font-size: 12px; }
+    button { padding: 8px 10px; border-radius: 8px; border: 1px solid #ccc; background: #f7f7f7; cursor: pointer; }
+    .grid { display: grid; grid-template-columns: 140px 1fr; gap: 6px 10px; }
+    textarea { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 8px; min-height: 92px; font-family: ui-monospace, Menlo, Consolas, monospace; }
+    input { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 8px; }
+
+    .chat { display:flex; flex-direction:column; gap:10px; }
+    .chatlog { border: 1px solid #ddd; border-radius: 10px; padding: 10px; max-height: 260px; overflow:auto; background:#fff; }
+    .msg { margin: 0 0 8px 0; }
+    .meta { font-size: 11px; color:#666; }
+    .bubble { display:inline-block; padding:8px 10px; border-radius: 12px; background:#f3f4f6; }
+    .me { background:#e8f0ff; }
+  </style>
+</head>
+<body>
+  <h1>Command Center Panel (Preview)</h1>
+  <div class="muted">Local-only preview UI for Librarian + Queue status + chat feed.</div>
+  <p><button onclick="refreshAll()">Refresh</button></p>
+
+  <div class="row">
+    <div class="card">
+      <h2>Librarian</h2>
+      <div class="grid">
+        <div>Manifest mtime</div><div id="manifest_mtime">-</div>
+        <div>ChatGPT files</div><div id="chatgpt_files">-</div>
+        <div>Lyrics files</div><div id="lyrics_files">-</div>
+        <div>Latest log mtime</div><div id="log_mtime">-</div>
+      </div>
+      <h3 style="font-size:14px; margin-top:12px;">Latest log tail</h3>
+      <pre id="log_tail">(loading)</pre>
+    </div>
+
+    <div class="card">
+      <h2>Command Center Queues</h2>
+      <div class="grid">
+        <div>Inbox</div><div id="q_inbox">-</div>
+        <div>Working</div><div id="q_working">-</div>
+        <div>Done</div><div id="q_done">-</div>
+        <div>Failed</div><div id="q_failed">-</div>
+      </div>
+
+      <h3 style="font-size:14px; margin-top:12px;">Drop a task (JSON)</h3>
+      <div class="muted">Writes to <code>queue/inbox/</code> via <code>/api/task</code></div>
+      <textarea id="task_json">{
+  "type": "ECHO",
+  "created_at": "",
+  "priority": "normal",
+  "owner": "jay",
+  "inputs": {"message": "hello from panel"},
+  "acceptance_criteria": "See echoed output in done folder"
+}</textarea>
+      <p><button onclick="submitTask()">Submit task</button> <span class="muted" id="submit_result"></span></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="card">
+      <h2>Bot Chat Feed</h2>
+      <div class="muted">Bots talk here instantly (append-only). Served from <code>events/chat/feed.jsonl</code>.</div>
+      <p><button onclick="refreshChat()">Refresh chat</button></p>
+      <div class="chatlog" id="chatlog">(loading)</div>
+      <div style="height:10px"></div>
+      <div class="grid">
+        <div>From</div><div><input id="from" value="jay" /></div>
+        <div>Text</div><div><input id="text" placeholder="say something..." /></div>
+      </div>
+      <p><button onclick="sendChat()">Send</button> <span class="muted" id="chat_result"></span></p>
+    </div>
+  </div>
+
+<script>
+async function refreshStatus() {
+  const r = await fetch('api/status');
+  const j = await r.json();
+  document.getElementById('manifest_mtime').textContent = j.librarian.manifest.mtime || '-';
+  document.getElementById('chatgpt_files').textContent = j.librarian.counts.chatgpt_files;
+  document.getElementById('lyrics_files').textContent = j.librarian.counts.lyrics_files;
+  document.getElementById('log_mtime').textContent = (j.librarian.latest_log && j.librarian.latest_log.mtime) || '-';
+  document.getElementById('log_tail').textContent = (j.librarian.latest_log && j.librarian.latest_log.tail) || '';
+
+  document.getElementById('q_inbox').textContent = j.command_center.queues.inbox;
+  document.getElementById('q_working').textContent = j.command_center.queues.working;
+  document.getElementById('q_done').textContent = j.command_center.queues.done;
+  document.getElementById('q_failed').textContent = j.command_center.queues.failed;
+}
+
+async function refreshChat() {
+  const el = document.getElementById('chatlog');
+  const r = await fetch('api/chat?tail=60');
+  const j = await r.json();
+  const msgs = j.messages || [];
+  el.innerHTML = '';
+  for (const m of msgs) {
+    const p = document.createElement('div');
+    p.className = 'msg';
+    const meta = document.createElement('div');
+    meta.className = 'meta';
+    meta.textContent = `${m.ts} · ${m.from} → ${m.to}`;
+    const b = document.createElement('div');
+    b.className = 'bubble' + ((m.from||'').toLowerCase()==='jay' ? ' me' : '');
+    b.textContent = m.text || '';
+    p.appendChild(meta);
+    p.appendChild(b);
+    el.appendChild(p);
+  }
+  el.scrollTop = el.scrollHeight;
+}
+
+async function sendChat() {
+  const out = document.getElementById('chat_result');
+  try {
+    const from = document.getElementById('from').value || 'jay';
+    const text = document.getElementById('text').value || '';
+    const payload = { from, text, to: 'all' };
+    const r = await fetch('api/chat', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload)});
+    const j = await r.json();
+    out.textContent = j.ok ? 'sent' : 'failed';
+    document.getElementById('text').value = '';
+    await refreshChat();
+  } catch (e) {
+    out.textContent = 'error';
+  }
+}
+
+async function refreshAll() {
+  await refreshStatus();
+  await refreshChat();
+}
+
+async function submitTask() {
+  const el = document.getElementById('task_json');
+  const out = document.getElementById('submit_result');
+  try {
+    const payload = JSON.parse(el.value);
+    if (!payload.created_at) payload.created_at = new Date().toISOString();
+    const r = await fetch('api/task', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(payload)
+    });
+    const j = await r.json();
+    out.textContent = j.ok ? ('Wrote: ' + j.path) : 'Failed';
+    await refreshStatus();
+  } catch (e) {
+    out.textContent = 'Bad JSON';
+  }
+}
+
+refreshAll();
+</script>
+</body>
+</html>

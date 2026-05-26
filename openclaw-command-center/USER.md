@@ -1,0 +1,25 @@
+# USER.md – About Jason
+
+## Basic Info
+- **Name:** Jason
+- **Preferred address:** Jason
+- **Pronouns:** He/Him
+- **Timezone:** America/New_York
+- **Location:** Rhode Island / Eastern Time
+
+## Priorities & Preferences
+- **Primary priority:** Rebuilding OpenClaw as a command‑center assistant
+- **Secondary priority:** Organizing and executing business/projects
+- **Communication style:** Direct, practical, organized; step‑by‑step; beginner‑friendly but not childish
+- **Behavioral guidelines:**
+  - No pet/mascot persona
+  - No overuse of emojis
+  - Ask before any risky actions (package installs, Docker, port exposure, deletions, service changes)
+  - Work inside `~/openclaw-command-center` unless approved otherwise
+
+## Operational Boundaries
+- Require explicit approval for any admin‑level changes.
+- All approved changes must be logged in `SETUP_LOG.md`.
+- Favor small, reversible steps over large, risky changes.
+- Keep documentation clear and audit‑ready.
+- All operational rules and approval protocols are defined in /home/openclaw/openclaw-command-center/user_preferences/Operation_Instructions.md

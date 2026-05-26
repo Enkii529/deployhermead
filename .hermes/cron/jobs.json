@@ -1,0 +1,42 @@
+{
+  "jobs": [
+    {
+      "id": "c75ef35e3840",
+      "name": "brain an user",
+      "prompt": "you should check here for my preferences :  /home/openclaw/hermes/user_preferences/Operation_Instructions.md and here os where you save all new information and check for old system app and skill knowledge  : /media/sf_ClawdbotShared/Brain",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 2 * * *",
+        "display": "0 2 * * *"
+      },
+      "schedule_display": "0 2 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 8
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-18T13:14:15.483845-04:00",
+      "next_run_at": "2026-05-27T02:00:00-04:00",
+      "last_run_at": "2026-05-26T02:03:37.564086-04:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null
+    }
+  ],
+  "updated_at": "2026-05-26T02:03:37.564435-04:00"
+}

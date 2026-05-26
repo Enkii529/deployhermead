@@ -1,0 +1,7 @@
+2026-05-08T06:31:25Z INSTALL docker-management official:builtin dangerous sha256:b9cffd3f6e84f4c0
+2026-05-08T06:32:18Z INSTALL openclaw-migration official:builtin dangerous sha256:dcf3ff6203c3ee41
+2026-05-08T06:32:20Z INSTALL fastmcp official:builtin dangerous sha256:55e291556dc92bb0
+2026-05-08T06:32:22Z INSTALL mcporter official:builtin caution sha256:b76f64a0e82ea216
+2026-05-08T06:32:24Z INSTALL duckduckgo-search official:builtin caution sha256:593bc4256aa4718d
+2026-05-08T06:32:26Z INSTALL searxng-search official:builtin caution sha256:087905c4390fab8e
+2026-05-08T06:32:33Z INSTALL honcho official:builtin dangerous sha256:e27066821bc275e9

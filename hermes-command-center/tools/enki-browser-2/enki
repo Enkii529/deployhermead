@@ -1,0 +1,108 @@
+#!/usr/bin/env bash
+# Enki Browser CLI - Frontend for Enki Browser 2 API
+# Usage: ./enki <command> [args...]
+
+set -euo pipefail
+
+# Default base URL (can override with ENKI_BROWSER_URL)
+BASE_URL="${ENKI_BROWSER_URL:-http://127.0.0.1:4318}"
+
+# Helper: print error and exit
+err() { echo "ERROR: $*" >&2; exit 1; }
+
+# Helper: curl JSON
+curl_json() {
+    local method=$1 url=$2 data=${3:-}
+    if [[ -z "$data" ]]; then
+        curl -sS -X "$method" "$BASE_URL$url" -H 'Content-Type: application/json'
+    else
+        curl -sS -X "$method" "$BASE_URL$url" -H 'Content-Type: application/json' -d "$data"
+    fi
+}
+
+# Commands
+case "${1:-}" in
+    help|--help|-h)
+        cat <<'EOF'
+Enki Browser CLI - Commands:
+  health                 GET  /health
+  policy                 GET  /policy
+  open <url>             POST /navigate (also: navigate)
+  text                   GET  /visible-text
+  dom                    GET  /dom-summary
+  content                GET  /content
+  console                GET  /console
+  network                GET  /network-failures
+  screenshot             POST /screenshot (outputs PNG to stdout)
+  screenshot/save        POST /screenshot/save
+  click <selector>       POST /click {"selector":"..."}
+  fill <selector> <val>  POST /fill {"selector":"...","value":"..."}
+  press <key>            POST /press {"key":"..."}
+  run <url>              POST /run {"url":"...","actions":[{"type":"screenshot"},{"type":"visibleText"},{"type":"domSummary"}]}
+  runs                   GET  /runs
+  inspect-run <runId>    GET  /runs/:id
+EOF
+        exit 0
+        ;;
+    health)
+        curl_json GET /health
+        ;;
+    policy)
+        curl_json GET /policy
+        ;;
+    open|navigate)
+        [[ -n "${2:-}" ]] || err "Usage: $0 open <url>"
+        curl_json POST /navigate "{\"url\":\"$2\"}"
+        ;;
+    text)
+        curl_json GET /visible-text
+        ;;
+    dom)
+        curl_json GET /dom-summary
+        ;;
+    content)
+        curl_json GET /content
+        ;;
+    console)
+        curl_json GET /console
+        ;;
+    network)
+        curl_json GET /network-failures
+        ;;
+    screenshot)
+        curl -sS -X POST "$BASE_URL/screenshot" -H 'Content-Type: application/json' --output - || err "Failed to get screenshot"
+        ;;
+    screenshot/save)
+        curl -sS -X POST "$BASE_URL/screenshot/save" -H 'Content-Type: application/json' || err "Failed to save screenshot"
+        ;;
+    click)
+        [[ -n "${2:-}" ]] || err "Usage: $0 click <selector>"
+        curl_json POST /click "{\"selector\":\"$2\"}"
+        ;;
+    fill)
+        [[ -n "${2:-}" && -n "${3:-}" ]] || err "Usage: $0 fill <selector> <value>"
+        curl_json POST /fill "{\"selector\":\"$2\",\"value\":\"$3\"}"
+        ;;
+    press)
+        [[ -n "${2:-}" ]] || err "Usage: $0 press <key>"
+        curl_json POST /press "{\"key\":\"$2\"}"
+        ;;
+    run)
+        [[ -n "${2:-}" ]] || err "Usage: $0 run <url>"
+        # Structured run: navigate + screenshot + visibleText + domSummary
+        curl_json POST /run "{\"url\":\"$2\",\"actions\":[{\"type\":\"screenshot\"},{\"type\":\"visibleText\"},{\"type\":\"domSummary\"}]}"
+        ;;
+    runs)
+        curl_json GET /runs
+        ;;
+    inspect-run)
+        [[ -n "${2:-}" ]] || err "Usage: $0 inspect-run <runId>"
+        curl_json GET "/runs/$2"
+        ;;
+    "")
+        err "No command given. Try './enki help' for usage."
+        ;;
+    *)
+        err "Unknown command: $1. Try './enki help'."
+        ;;
+esac

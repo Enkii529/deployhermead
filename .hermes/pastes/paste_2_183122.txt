@@ -1,0 +1,30 @@
+    
+    Fix the polling conflicts:
+    bash
+    Check for multiple gateway processes
+    ps aux | grep '[h]ermes gateway'
+    
+    If more than one line appears, kill the extras
+    kill <PID>
+    
+    Verify only one remains
+    pgrep -f "hermes gateway" | wc -l   # should return 1
+    
+    
+    Check systemd service (if installed):
+    bash
+    systemctl --user status hermes-gateway
+    If active and you also have a manual process, stop one
+    
+    
+    After cleaning up, restart:
+    bash
+    hermes gateway restart
+    
+    
+    Want me to verify AI response quality?
+    If you suspect the model itself is hallucinating (saying incorrect things), I can:
+    - Fetch a recent session transcript
+    - Review the conversation for factual errors
+    - Compare against source knowledge
+    

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "runId": "2026-05-04T03-04-11.713Z",
+    "created": "2026-05-04T03:04:11.713Z",
+    "url": "https://example.com",
+    "openMode": true,
+    "profile": "/home/openclaw/openclaw-command-center/tools/enki-browser-2/data/profile"
+  },
+  "results": [
+    {
+      "action": "navigate",
+      "url": "https://example.com/"
+    },
+    {
+      "action": "screenshot",
+      "path": "/home/openclaw/openclaw-command-center/tools/enki-browser-2/runs/2026-05-04T03-04-11.713Z/screenshot.png"
+    },
+    {
+      "action": "visibleText",
+      "path": "/home/openclaw/openclaw-command-center/tools/enki-browser-2/runs/2026-05-04T03-04-11.713Z/visible-text.txt"
+    },
+    {
+      "action": "domSummary",
+      "path": "/home/openclaw/openclaw-command-center/tools/enki-browser-2/runs/2026-05-04T03-04-11.713Z/dom-summary.json"
+    }
+  ],
+  "artifacts": {
+    "console": "console.json",
+    "network": "network-failures.json"
+  }
+}

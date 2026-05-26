@@ -1,0 +1,9 @@
+{
+  "last_report_path": "/home/openclaw/.hermes/logs/curator/20260518-173708",
+  "last_run_at": "2026-05-18T17:37:08.472061+00:00",
+  "last_run_duration_seconds": 271.324088,
+  "last_run_summary": "auto: no changes; llm: ! The three skills have been archived (moved to .archive/). Now I need to produce the final structured summary in the exact format requested.\n\nThe consolidation list should have:\n- from: skill name\n- into: umbrella skill name (devops-operat…\narchived 3 skill(s):\n  • n8n-automation — pruned (stale)\n  • operational-audit — pruned (stale)\n  • system-health-audit — pruned (stale)\nfull report: hermes curator status",
+  "last_run_summary_shown_at": "2026-05-08T03:46:48.680762+00:00",
+  "paused": false,
+  "run_count": 1
+}
