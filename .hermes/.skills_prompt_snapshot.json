@@ -45,6 +45,10 @@
       1779127819816154101,
       5595
     ],
+    "best-heroes-lead-gen/SKILL.md": [
+      1779992637659822234,
+      2435
+    ],
     "creative/architecture-diagram/SKILL.md": [
       1778726768784414965,
       5830
@@ -684,6 +688,19 @@
       "category": "autonomous-ai-agents",
       "frontmatter_name": "self-improvement",
       "description": "Log learnings, errors, and corrections to enable continuo...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "best-heroes-lead-gen",
+      "category": "best-heroes-lead-gen",
+      "frontmatter_name": "best-heroes-lead-gen",
+      "description": "Generate targeted business leads for My Biz Heroes using ...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],

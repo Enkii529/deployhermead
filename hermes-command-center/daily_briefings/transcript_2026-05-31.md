@@ -1,0 +1,136 @@
+Daily AI Briefing – 2026-05-31
+
+
+General AI Headlines:
+
+1. **Digg launches AI profile pages for X users to analyze ...**
+• 1 day ago · Digg launches AI profile pages for X users to analyze research topics, directory ranks, and posting vibes
+
+2. **Companies followed by the AI 2K · Digg**
+• Companies ranked by how many of the AI 2K follow them.
+
+3. **AI Rankings · Digg**
+• People actively involved in AI across research, startups, investing, engineering, and media, ranked from the X social graph.
+
+4. **AI News · Digg**
+• May 22, 2026 · AI 2K top stories, ranked by what the leading voices in AI are posting and sharing on X.
+
+5. **Inherent launches with $50 million to build AI agents ... - Digg**
+• 3 days ago · Index Ventures and Radical VC led the seed funding.
+
+6. **Di.gg expands AI leaderboards beyond top-1000 cutoff · Digg**
+• May 14, 2026 · Di.gg expanded its AI leaderboards beyond the prior top-1000 cutoff. Venture capitalist Yohei Nakajima at Untapped Capital received rank 989 with perfect tech and AI scores.…
+
+7. **Google says its Gemini app has reached more than 900 million users after the bas...**
+• Official post referenced Google I/O amid ChatGPT comparisons.
+
+8. **Jason Calacanis argues genuine AI productivity gains are now ...**
+• 1 day ago · Calacanis advises threatened workers to immediately adopt AI-first workflows.
+
+9. **Nvidia developed the RTX 6000D as a downgraded GPU without NVLink or HBM memory ...**
+• Nvidia China revenue fell from 26 percent to 5 percent of sales.
+
+10. **Microsoft ends internal use of Anthropic's Claude coding tool after token-b...**
+• Uber CTO reports exhausting full 2026 AI budget in four months.
+
+11. **Charts show sharp post-ChatGPT rises in creative and scientific output with week...**
+• Federal pro se litigants rose to 17 percent of filings.
+
+12. **Trump indicates he will postpone an executive order on AI after determining cert...**
+• U.S. AI lead already produces measurable economic gains and job growth.
+
+
+Open Source Creative AI Tools:
+
+1. **OmniVoice: Free AI Voice Generator & Voice Cloning**
+• OmniVoice is a free, open-source AI voice generator that supports 646 languages. It converts text to natural-sounding speech, clones voices from a short audio sample (zero-shot Voice Cloning), or c...
+
+2. **GitHub - jamiepine/voicebox: The open-source AI voice studio. Clone...**
+• Voice cloning and preset voices — zero-shot cloning from a reference sample, or 50+ curated preset voices via Kokoro and Qwen CustomVoice. 23 languages — from English to Arabic, Japanese, Hindi, Sw...
+
+3. **Chatterbox: Open Source Text-to-Speech | Resemble AI**
+• Chatterbox is Resemble AI's free, open-source TTS model, MIT-licensed with emotion control, real-time generation, and zero-shot voice cloning from 5 seconds of audio.
+
+4. **RVC Web UI - FREE, Open Source AI Voice Cloning... - YouTube**
+• Unlimited, free voice conversion software that runs on your own pc! While the RVC WebUI (RVC-Project - Retrieval-based-Voice-Conversion-WebUI) has been out f...
+
+5. **Free AI Voice Generator — 174 Voices, 37 Languages | Free.ai**
+• Free AI voice generator with 174 realistic voices across 37 languages. Create natural-sounding AI voiceovers, narrations, and audio from text. No sign up required.Click generate. Our AI processes y...
+
+6. **7 Best Open Source Video Generation Models in 2026 [Updated ...**
+• Feb 12, 2026 · Looking for the best open-source AI video generation models? This blog highlights top-performing models that make creating AI-generated videos easier than ever. From fast inference e...
+
+7. **GitHub - Anil-matcha/Open-Generative-AI: Open-source ...**
+• Looking for a free, open-source AI Video Platform? Open Generative AI is an open-source AI image and video generation studio — with no content filters that you can self-host, customize, and extend.
+
+8. **Best Open Source AI Video Generators 2026 - SourceForge**
+• Sep 7, 2023 · Browse free open source AI Video Generators and projects below. Use the toggles on the left to filter open source AI Video Generators by OS, license, language, programming language, a...
+
+9. **31 Open-Source AI Video Models: Free Tools to Make Videos in ...**
+• Dec 21, 2025 · Open-source AI video models let you make videos from text or images without paying per clip. You keep your data private, avoid subscription fees, and run everything on your own compu...
+
+10. **Best Open Source AI Video Generation Models in 2026**
+• Discover the top open-source AI video generation models of 2026 with full specs, pros, cons, and use cases for cinematic, creative, or fast content.
+
+
+New LLM Models:
+
+1. **New LLM models now available in the control panel -**
+• This lineup lets you match the model to the job: lighter LLMs for high-volume, cost-sensitive tasks like chatbots and internal assistants, and ...
+
+2. **New LLM models now available in the control panel -**
+• This lineup lets you match the model to the job: lighter LLMs for high-volume, cost-sensitive tasks like chatbots and internal assistants, and ...
+
+3. **Top 5 LLM Models of 2025 You Should Know**
+• Top LLM models 2025 are driving the rapid evolution of artificial intelligence (AI), leading the charge in this technological revolution.
+
+4. **What new LLM model types would like to see in the future? -**
+• What new LLM model types would like to see in the future? ... text to encryption is fun, I saw it but got lazy in getting data to train a LLM on it
+
+5. **Why LLM models are no longer interchangeable**
+• In this blog, we’ll explore three surprising takeaways from this new era: why your LLM is now a statement about your product, how models now have ...
+
+6. **LLM Revolution in Late 2025: Massive Investments, Cutting-Edge**
+• November 2025 has been a banner month for new LLM releases, with proprietary models pushing the envelope on performance.
+
+
+Open Source LLM Models:
+
+1. **Take a look at our round-up of the top open-source LLMs. | Budibase**
+• Mixtral 8x7B by Mistral is a somewhat novel option compared to some of the other models we’ve seen. It’s an open-weight LLM, offering a sparse mixture-of-experts model. It contains 46.7 billion, bu...
+
+2. **OpenAI enters open-source AI race with new reasoning... | Fortune**
+• That changed on Tuesday: The company launched a long-awaited open-weight model, in two sizes, that OpenAI says pushes the frontier of reasoning in open-source AI.
+
+3. **5 Best Open Source LLMs (May 2026) – Unite.AI**
+• Open source AI has caught up to closed-source systems. These five large language models (LLMs) deliver enterprise-grade performance without the recurring API costs or vendor lock-in.
+
+4. **Best Open-Source Vision Language Models of 2026**
+• Discover the leading open-source vision-language models (VLMs) of 2025 including Qwen 2.5 VL, LLaMA 3.2 Vision, and DeepSeek-VL. This guide compares key specs, encoders, and capabilities like OCR, ...
+
+5. **Learn Ollama in 15 Minutes - Run LLM Models Locally for... - YouTube**
+• Get 25% off SEO Writing using my code TWT25 → https://seowriting.ai/?utm_source=youtube&utm_medium=tech_with_timIn this short video, I'll teach you everythin...
+
+6. **GitHub - QwenLM/Qwen3: Qwen3 is the large language model series...**
+• 2025.07.31: Qwen3-30B-A3B-Thinking-2507 is released. Check out the modelcard for more details!
+
+
+New Cloud Models:
+
+1. **OpenRouter raises $40 million to scale up multi-model**
+• NEW YORK, June 25, 2025 (GLOBE NEWSWIRE) -- OpenRouter , the unified interface for large-language-model (LLM) inference, today announced that it has ...
+
+2. **Simon Willison on openrouter**
+• GLM-5: From Vibe Coding to Agentic Engineering ( via ) This is a huge new MIT-licensed model: 744B parameters and 1.51TB on Hugging Face twice the ...
+
+3. **llm-openrouter 0.4**
+• OpenRouter apparently make this feature available to every one of their supported models! They're using new-to-me Exa to power this feature, an AI ...
+
+4. **openrouter.ai/terms**
+• OpenRouter operates a large ... OpenRouter uses a hosted model for categorizing Inputs, which does not store or log any Inputs provided to it.
+
+5. **OpenRouter Models Ranked: 15 Best for Coding, Free &**
+• With over 400+ models now available on OpenRouter, choosing the right one is more important—and more confusing—than ever.
+
+6. **AI Models | NVIDIA Developer**
+• Explore and deploy top AI models built by the community, accelerated by NVIDIA’s AI inference platform, and run on NVIDIA-accelerated infrastructure.

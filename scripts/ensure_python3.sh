@@ -11,11 +11,11 @@ find ~/hermes -type f \( -name "*.py" -o -name "*.sh" -o -name "*.bash" \) -exec
     fi
 done
 
-# Replace bare 'python ' with 'python3 ' (word-boundary aware)
+# Replace bare 'python3 ' with 'python3 ' (word-boundary aware)
 # This may affect comments, but it's safe as it narrows to the command word.
-find ~/hermes -type f \( -name "*.sh" -o -name "*.bash" -o -name "*.py" \) -exec grep -l "\<python " {} \; | while read -r file; do
-    echo "Replacing 'python ' with 'python3 ' in $file"
-    sed -i.bak 's/\<python /python3 /g' "$file"
+find ~/hermes -type f \( -name "*.sh" -o -name "*.bash" -o -name "*.py" \) -exec grep -l "\<python3 " {} \; | while read -r file; do
+    echo "Replacing 'python3 ' with 'python3 ' in $file"
+    sed -i.bak 's/\<python3 /python3 /g' "$file"
 done
 
 echo "Enforcement complete. Backups saved as *.bak files."

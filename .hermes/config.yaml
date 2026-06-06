@@ -1,5 +1,5 @@
 model:
-  default: stepfun-ai/step-3.5-flash
+  default: nvidia/nemotron-3-ultra-550b-a55b
   provider: nvidia
   base_url: ''
   api_mode: chat_completions
@@ -11,7 +11,7 @@ credential_pool_strategies: {}
 toolsets:
 - hermes-cli
 agent:
-  max_turns: 90
+  max_turns: 270
   gateway_timeout: 1800
   restart_drain_timeout: 180
   api_max_retries: 3
@@ -25,6 +25,7 @@ agent:
   disabled_toolsets: []
   verbose: false
   reasoning_effort: medium
+  max_response_calls: 180
   personalities:
     helpful: You are a helpful, friendly AI assistant.
     concise: You are a concise assistant. Keep responses brief and to the point.
@@ -69,7 +70,7 @@ terminal:
   backend: local
   modal_mode: auto
   cwd: .
-  timeout: 180
+  timeout: 540
   env_passthrough: []
   shell_init_files: []
   auto_source_bashrc: true
@@ -336,8 +337,8 @@ memory:
   nudge_interval: 10
   flush_min_turns: 6
 delegation:
-  model: ''
-  provider: ''
+  model: qwen/qwen3-coder-480b-a35b-instruct
+  provider: openrouter
   base_url: ''
   api_key: ''
   inherit_mcp_toolsets: true
@@ -435,8 +436,8 @@ kanban:
   failure_limit: 2
 code_execution:
   mode: project
-  timeout: 300
-  max_tool_calls: 50
+  timeout: 900
+  max_tool_calls: 150
 logging:
   level: INFO
   max_size_mb: 5

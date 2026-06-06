@@ -1,0 +1,157 @@
+{
+  "date": "2026-06-05",
+  "trending": [
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "stars": 439618,
+      "language": "Python"
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "description": ":books: Freely available programming books",
+      "stars": 389739,
+      "language": "Python"
+    },
+    {
+      "name": "donnemartin/system-design-primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "stars": 351888,
+      "language": "Python"
+    },
+    {
+      "name": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "stars": 301467,
+      "language": "Python"
+    },
+    {
+      "name": "TheAlgorithms/Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "description": "All Algorithms implemented in Python",
+      "stars": 221684,
+      "language": "Python"
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "stars": 184787,
+      "language": "Python"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "stars": 182894,
+      "language": "Python"
+    },
+    {
+      "name": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "stars": 168331,
+      "language": "Python"
+    },
+    {
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "description": "Stable Diffusion web UI",
+      "stars": 163486,
+      "language": "Python"
+    },
+    {
+      "name": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stars": 161324,
+      "language": "Python"
+    }
+  ],
+  "recent_notable": [
+    {
+      "name": "ai-dynamo/aiconfigurator",
+      "url": "https://github.com/ai-dynamo/aiconfigurator",
+      "description": "Offline optimization of your disaggregated Dynamo graph",
+      "stars": 324,
+      "language": "Python",
+      "pushed_at": "2026-06-05T20:37:06Z"
+    },
+    {
+      "name": "SoliSpirit/v2ray-configs",
+      "url": "https://github.com/SoliSpirit/v2ray-configs",
+      "description": "V2Ray configs for multiple protocols and countries, updated every 15 minutes for fast, secure connections!",
+      "stars": 555,
+      "language": null,
+      "pushed_at": "2026-06-05T20:37:09Z"
+    },
+    {
+      "name": "emiago/sipgo",
+      "url": "https://github.com/emiago/sipgo",
+      "description": "SIP library for writing fast SIP services in GO",
+      "stars": 1032,
+      "language": "Go",
+      "pushed_at": "2026-06-05T20:36:59Z"
+    },
+    {
+      "name": "getsentry/sentry",
+      "url": "https://github.com/getsentry/sentry",
+      "description": "Developer-first error tracking and performance monitoring",
+      "stars": 44050,
+      "language": "Python",
+      "pushed_at": "2026-06-05T20:36:59Z"
+    },
+    {
+      "name": "devantler-tech/ksail",
+      "url": "https://github.com/devantler-tech/ksail",
+      "description": "All-in-one Kubernetes SDK: create, manage, and operate clusters across distributions (Kind, K3d, Talos, VCluster) with built-in GitOps, secrets, AI assistant, and MCP server. Only requires Docker or a Cloud Provider.",
+      "stars": 147,
+      "language": "Go",
+      "pushed_at": "2026-06-05T20:36:58Z"
+    },
+    {
+      "name": "digimezzo/dopamine",
+      "url": "https://github.com/digimezzo/dopamine",
+      "description": "The audio player that keeps it simple",
+      "stars": 2206,
+      "language": "TypeScript",
+      "pushed_at": "2026-06-05T20:36:58Z"
+    },
+    {
+      "name": "aws/graph-explorer",
+      "url": "https://github.com/aws/graph-explorer",
+      "description": "React-based web application that enables users to visualize both property graph and RDF data and explore connections between data without having to write graph queries. ",
+      "stars": 464,
+      "language": "TypeScript",
+      "pushed_at": "2026-06-05T20:36:58Z"
+    },
+    {
+      "name": "derekwisong/datui",
+      "url": "https://github.com/derekwisong/datui",
+      "description": "Data Exploration in the Terminal",
+      "stars": 125,
+      "language": "Rust",
+      "pushed_at": "2026-06-05T20:36:57Z"
+    },
+    {
+      "name": "zephyrproject-rtos/zephyr",
+      "url": "https://github.com/zephyrproject-rtos/zephyr",
+      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
+      "stars": 15521,
+      "language": "C",
+      "pushed_at": "2026-06-05T20:36:55Z"
+    },
+    {
+      "name": "Olshansk/rss-feeds",
+      "url": "https://github.com/Olshansk/rss-feeds",
+      "description": "Generate RSS feeds for all the blogs that don't have one",
+      "stars": 591,
+      "language": "Python",
+      "pushed_at": "2026-06-05T20:36:55Z"
+    }
+  ]
+}
