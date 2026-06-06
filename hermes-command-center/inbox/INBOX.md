@@ -1,5 +1,7 @@
-# INBOX
+# INBOX.md
 
-Use this to capture incoming tasks, ideas, and requests.
+Use this file to capture loose ideas, tasks, links, notes, and project thoughts before sorting them.
 
-- [ ] 
+## Unsorted Items
+
+-

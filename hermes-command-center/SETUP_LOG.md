@@ -41,3 +41,4 @@ All setup actions taken during bootstrap initialization.
 - OpenClaw will continue using OpenRouter free as the main provider.
 - Ollama will be used separately for local apps, n8n automations, dashboards, scripts, and helper tools.
 - Created local-ai workspace plan.
+2026-05-31 21:28:51 - Cal.diy setup: cloned repo, generated .env, starting Docker containers

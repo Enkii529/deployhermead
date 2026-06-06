@@ -11,7 +11,6 @@ mkdir -p "$BACKUP_DIR"
 # Sources to backup (adjust paths if your setup differs)
 SOURCES=(
   "${HOME}/hermes-command-center"
-  "${HOME}/openclaw-command-center"
   "${HOME}/.hermes"
   "${HOME}/hermes/scripts"
 )

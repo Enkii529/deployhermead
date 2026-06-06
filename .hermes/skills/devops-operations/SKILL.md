@@ -52,7 +52,7 @@ Checks that core infrastructure is up and provides recovery steps if issues are 
 | Hermes Gateway | `ps aux | grep -E "hermes.*gateway" | grep -v grep` running Python process | `systemctl --user status hermes-gateway` |
 | Brain API | `curl -s http://192.168.56.1:8090/health` → JSON response | Windows host Docker compose |
 | Docker containers | `docker ps` shows expected containers | `docker start <name>` or `docker compose up -d` |
-| Brain Command Center Panel | `curl -s http://127.0.0.1:8787` → UI response | `~/openclaw-command-center/.../app.py` |
+|| Brain Command Center Panel | `curl -s http://127.0.0.1:8787` → UI response | `~/hermes-command-center/.../app.py` |
 | Enki Browser | `curl -s http://127.0.0.1:4318` (404 on `/` is fine) | Process restart |
 
 ### Common Pitfalls
@@ -288,7 +288,7 @@ Use Function node to call `OLLAMA_BASE_URL` or another provider. See patterns in
   ```bash
   docker run -d --name n8n -p 5678:5678 \
     -e N8N_MCP_STRICT_MODE=false \
-    -v /home/openclaw/openclaw-command-center/automation_outputs:/files \
+    -v /home/openclaw/hermes-command-center/automation_outputs:/files \
     n8nio/n8n:2.18.5
   ```
 - Or configure MCP server's `allowed_hosts` to include localhost.
@@ -302,8 +302,8 @@ Use Function node to call `OLLAMA_BASE_URL` or another provider. See patterns in
 #### Missing `/files` Directory or Permission Denied
 
 ```bash
-mkdir -p /home/openclaw/openclaw-command-center/automation_outputs/{briefings,logs}
-chmod -R 777 /home/openclaw/openclaw-command-center/automation_outputs  # temporary for testing
+mkdir -p /home/openclaw/hermes-command-center/automation_outputs/{briefings,logs}
+chmod -R 777 /home/openclaw/hermes-command-center/automation_outputs  # temporary for testing
 docker inspect n8n | grep -A 2 Mounts  # verify mount
 ```
 
