@@ -16,7 +16,7 @@ SOURCES=(
   "${HOME}/hermes/scripts"
 )
 
-# Exclusion patterns (common caches, envs, large binaries, secrets)
+# Exclusion patterns (common caches, envs, large binaries, secrets, heavy projects)
 EXCLUDE_PATTERNS=(
   ".git" "node_modules" "__pycache__" ".pytest_cache"
   ".venv" "venv" "env" ".env" ".env.*"
@@ -31,6 +31,8 @@ EXCLUDE_PATTERNS=(
   ".ssh"
   "*.onnx" "*.ckpt" "*.safetensors" "*.bin" "*.pt" "*.pth"
   "kokoro_models" "models" "checkpoints"
+  "projects" "projects/*"
+  "tools/enki-browser-2/.server.pid"
 )
 
 # Temporary exclude file
