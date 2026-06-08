@@ -1,0 +1,385 @@
+{
+  "trending": [
+    {
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "stars": 439903,
+      "description": "A collective list of free APIs"
+    },
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "stars": 389811,
+      "description": ":books: Freely available programming books"
+    },
+    {
+      "name": "donnemartin/system-design-primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "stars": 352055,
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards."
+    },
+    {
+      "name": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "stars": 301713,
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources"
+    },
+    {
+      "name": "TheAlgorithms/Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "stars": 221732,
+      "description": "All Algorithms implemented in Python"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 185220,
+      "description": "The agent that grows with you"
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": 184806,
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "name": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "stars": 168786,
+      "description": "A feature-rich command-line audio/video downloader"
+    },
+    {
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "stars": 163509,
+      "description": "Stable Diffusion web UI"
+    },
+    {
+      "name": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "stars": 161379,
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+    },
+    {
+      "name": "521xueweihan/HelloGitHub",
+      "url": "https://github.com/521xueweihan/HelloGitHub",
+      "stars": 160373,
+      "description": ":octocat: \u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub."
+    },
+    {
+      "name": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "stars": 149334,
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "stars": 147414,
+      "description": "Public repository for Agent Skills"
+    },
+    {
+      "name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "stars": 146818,
+      "description": "Python tool for converting files and office documents to Markdown."
+    },
+    {
+      "name": "ytdl-org/youtube-dl",
+      "url": "https://github.com/ytdl-org/youtube-dl",
+      "stars": 140450,
+      "description": "Command-line program to download videos from YouTube.com and other video sites"
+    },
+    {
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": 140436,
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": 138711,
+      "description": "The agent engineering platform."
+    },
+    {
+      "name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "stars": 130773,
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "stars": 116029,
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface."
+    },
+    {
+      "name": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "stars": 113613,
+      "description": "100+ AI Agent & RAG apps you can actually run \u2014 clone, customize, ship."
+    }
+  ],
+  "trending_ai": [
+    {
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "stars": 389811,
+      "description": ":books: Freely available programming books"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 185220,
+      "description": "The agent that grows with you"
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": 184806,
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "stars": 163509,
+      "description": "Stable Diffusion web UI"
+    },
+    {
+      "name": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "stars": 161379,
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+    },
+    {
+      "name": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "stars": 149334,
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "stars": 147414,
+      "description": "Public repository for Agent Skills"
+    },
+    {
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": 140436,
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": 138711,
+      "description": "The agent engineering platform."
+    },
+    {
+      "name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "stars": 130773,
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "stars": 116029,
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface."
+    },
+    {
+      "name": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "stars": 113613,
+      "description": "100+ AI Agent & RAG apps you can actually run \u2014 clone, customize, ship."
+    }
+  ],
+  "recent": [
+    {
+      "name": "thisusercannotexist/auto-push",
+      "url": "https://github.com/thisusercannotexist/auto-push",
+      "stars": 13,
+      "description": "Auto update a file content and push it directly to the repository ",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "ekinciomer-ai/epias-ptf",
+      "url": "https://github.com/ekinciomer-ai/epias-ptf",
+      "stars": 1,
+      "description": "",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "qiongzhang1225-alt/ai-agent-framework",
+      "url": "https://github.com/qiongzhang1225-alt/ai-agent-framework",
+      "stars": 0,
+      "description": "",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "ks98/AdminHelper",
+      "url": "https://github.com/ks98/AdminHelper",
+      "stars": 0,
+      "description": "Self-hosted remote-management system: SSH/RDP/Web connections, server inventory, monitoring, FRP tunnels and Ansible. FastAPI + Svelte 5 + Tauri/Rust + Go.",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "basecubedev/ems-solarflow-api-control",
+      "url": "https://github.com/basecubedev/ems-solarflow-api-control",
+      "stars": 2,
+      "description": "Lightweight EMS for Zendure SolarFlow with local API control and optional Home Assistant integration.",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "willisfeng/douyin",
+      "url": "https://github.com/willisfeng/douyin",
+      "stars": 0,
+      "description": "",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "aleksandr-kotlyar/gitlab-allure-history",
+      "url": "https://github.com/aleksandr-kotlyar/gitlab-allure-history",
+      "stars": 17,
+      "description": "Lightweight GitLab CI template for publishing branch-based Allure report history to GitLab Pages.",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "wangxiao433/My-Agent-Skills",
+      "url": "https://github.com/wangxiao433/My-Agent-Skills",
+      "stars": 0,
+      "description": "\u81ea\u52a8\u603b\u7ed3\u6bcf\u5929\u7684\u5de5\u4f5c",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "Andrebdcm/g41_project",
+      "url": "https://github.com/Andrebdcm/g41_project",
+      "stars": 0,
+      "description": "",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "ludwigkubler/SperimentalMath",
+      "url": "https://github.com/ludwigkubler/SperimentalMath",
+      "stars": 0,
+      "description": "",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "TheMagicTower/loftbox-agent-mail-skill",
+      "url": "https://github.com/TheMagicTower/loftbox-agent-mail-skill",
+      "stars": 0,
+      "description": "Codex skill for registering LoftBox mail agents",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "SaiCharan1704/ml-predictive-modeling",
+      "url": "https://github.com/SaiCharan1704/ml-predictive-modeling",
+      "stars": 0,
+      "description": "",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "skills-il/tax-and-finance",
+      "url": "https://github.com/skills-il/tax-and-finance",
+      "stars": 22,
+      "description": "AI agent skills for Israeli tax, invoicing, VAT, and financial systems",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "Aritra1996/chesspuzzledownload",
+      "url": "https://github.com/Aritra1996/chesspuzzledownload",
+      "stars": 0,
+      "description": "It will help download chess puzzles in pdf format",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "ahfirhack/ahfirhack",
+      "url": "https://github.com/ahfirhack/ahfirhack",
+      "stars": 0,
+      "description": "IPTV",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "kerwinme8898/My.Tiny.Hub",
+      "url": "https://github.com/kerwinme8898/My.Tiny.Hub",
+      "stars": 0,
+      "description": "",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "mineral8-del/dapp",
+      "url": "https://github.com/mineral8-del/dapp",
+      "stars": 0,
+      "description": "",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "gougyyy/gougyyy",
+      "url": "https://github.com/gougyyy/gougyyy",
+      "stars": 0,
+      "description": "my readme.md",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "Cyborg2017/midea_smart_home",
+      "url": "https://github.com/Cyborg2017/midea_smart_home",
+      "stars": 73,
+      "description": "Midea Smart device integration with local network control from Home Assistant",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "shivankvirdi/Nectar-GDG",
+      "url": "https://github.com/shivankvirdi/Nectar-GDG",
+      "stars": 1,
+      "description": "Nectar",
+      "updated": "2026-06-07"
+    }
+  ],
+  "recent_ai": [
+    {
+      "name": "ekinciomer-ai/epias-ptf",
+      "url": "https://github.com/ekinciomer-ai/epias-ptf",
+      "stars": 1,
+      "description": "",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "qiongzhang1225-alt/ai-agent-framework",
+      "url": "https://github.com/qiongzhang1225-alt/ai-agent-framework",
+      "stars": 0,
+      "description": "",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "wangxiao433/My-Agent-Skills",
+      "url": "https://github.com/wangxiao433/My-Agent-Skills",
+      "stars": 0,
+      "description": "\u81ea\u52a8\u603b\u7ed3\u6bcf\u5929\u7684\u5de5\u4f5c",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "TheMagicTower/loftbox-agent-mail-skill",
+      "url": "https://github.com/TheMagicTower/loftbox-agent-mail-skill",
+      "stars": 0,
+      "description": "Codex skill for registering LoftBox mail agents",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "SaiCharan1704/ml-predictive-modeling",
+      "url": "https://github.com/SaiCharan1704/ml-predictive-modeling",
+      "stars": 0,
+      "description": "",
+      "updated": "2026-06-07"
+    },
+    {
+      "name": "skills-il/tax-and-finance",
+      "url": "https://github.com/skills-il/tax-and-finance",
+      "stars": 22,
+      "description": "AI agent skills for Israeli tax, invoicing, VAT, and financial systems",
+      "updated": "2026-06-07"
+    }
+  ],
+  "fetched": "2026-06-07T06:48:21.088534"
+}
