@@ -6,26 +6,32 @@ model:
 providers:
   nvidia:
     api_key: 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
-fallback_providers: []
+  openrouter:
+    api_key: "sk-or-...6c79"
+fallback_providers:
+  - provider: nvidia
+    model: stepfun-ai/step-3.5-flash
+  - provider: openrouter
+    model: openrouter/free
 credential_pool_strategies: {}
 toolsets:
 - hermes-cli
 agent:
-  max_turns: 270
-  gateway_timeout: 1800
-  restart_drain_timeout: 180
+  max_turns: 176
+  gateway_timeout: 1170
+  restart_drain_timeout: 117
   api_max_retries: 3
   service_tier: ''
   tool_use_enforcement: auto
-  gateway_timeout_warning: 900
-  clarify_timeout: 600
-  gateway_notify_interval: 180
-  gateway_auto_continue_freshness: 3600
+  gateway_timeout_warning: 585
+  clarify_timeout: 390
+  gateway_notify_interval: 117
+  gateway_auto_continue_freshness: 2340
   image_input_mode: auto
   disabled_toolsets: []
   verbose: false
   reasoning_effort: medium
-  max_response_calls: 180
+  max_response_calls: 117
   personalities:
     helpful: You are a helpful, friendly AI assistant.
     concise: You are a concise assistant. Keep responses brief and to the point.
@@ -70,7 +76,7 @@ terminal:
   backend: local
   modal_mode: auto
   cwd: .
-  timeout: 540
+  timeout: 351
   env_passthrough: []
   shell_init_files: []
   auto_source_bashrc: true
@@ -90,21 +96,21 @@ terminal:
   docker_extra_args: []
   docker_run_as_host_user: false
   persistent_shell: true
-  lifetime_seconds: 300
+  lifetime_seconds: 195
 web:
   backend: ''
   search_backend: ''
   extract_backend: ''
 browser:
-  inactivity_timeout: 120
-  command_timeout: 30
+  inactivity_timeout: 78
+  command_timeout: 20
   record_sessions: false
   allow_private_urls: false
   engine: auto
   auto_local_for_private_urls: true
   cdp_url: ''
   dialog_policy: must_respond
-  dialog_timeout_s: 300
+  dialog_timeout_s: 195
   camofox:
     managed_persistence: false
     user_id: ''
@@ -119,11 +125,11 @@ checkpoints:
   retention_days: 7
   delete_orphans: true
   min_interval_hours: 24
-file_read_max_chars: 100000
+file_read_max_chars: 65000
 tool_output:
-  max_bytes: 50000
-  max_lines: 2000
-  max_line_length: 2000
+  max_bytes: 32500
+  max_lines: 1300
+  max_line_length: 1300
 tool_loop_guardrails:
   warnings_enabled: true
   hard_stop_enabled: false
@@ -165,22 +171,22 @@ auxiliary:
     model: ''
     base_url: ''
     api_key: ''
-    timeout: 120
+    timeout: 78
     extra_body: {}
-    download_timeout: 30
+    download_timeout: 20
   web_extract:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
-    timeout: 360
+    timeout: 234
     extra_body: {}
   compression:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
-    timeout: 120
+    timeout: 78
     extra_body: {}
   session_search:
     provider: auto
@@ -223,14 +229,14 @@ auxiliary:
     model: ''
     base_url: ''
     api_key: ''
-    timeout: 120
+    timeout: 78
     extra_body: {}
   curator:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
-    timeout: 600
+    timeout: 390
     extra_body: {}
 display:
   compact: false
@@ -342,10 +348,10 @@ delegation:
   base_url: ''
   api_key: ''
   inherit_mcp_toolsets: true
-  max_iterations: 50
-  child_timeout_seconds: 1800
+  max_iterations: 33
+  child_timeout_seconds: 1170
   reasoning_effort: ''
-  max_concurrent_children: 3
+  max_concurrent_children: 2
   max_spawn_depth: 1
   orchestrator_enabled: true
   subagent_auto_approve: false
@@ -436,8 +442,8 @@ kanban:
   failure_limit: 2
 code_execution:
   mode: project
-  timeout: 900
-  max_tool_calls: 150
+  timeout: 585
+  max_tool_calls: 98
 logging:
   level: INFO
   max_size_mb: 5
