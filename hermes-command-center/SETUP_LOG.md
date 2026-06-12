@@ -41,4 +41,14 @@ All setup actions taken during bootstrap initialization.
 - OpenClaw will continue using OpenRouter free as the main provider.
 - Ollama will be used separately for local apps, n8n automations, dashboards, scripts, and helper tools.
 - Created local-ai workspace plan.
-2026-05-31 21:28:51 - Cal.diy setup: cloned repo, generated .env, starting Docker containers
+
+## 2026-06-11 - Inter-Agent Task Management System
+- Created `/media/sf_ClawdbotShared/Brain/inter_agent_tasks/` for @Hermes (Enzo) ↔ @hemesmsibot coordination
+- Structure: webhooks/, queue/, completed/, schemas/, scripts/
+- Webhook configs: hermes_enzo.json (port 8080), hemesmsibot.json (template for local LLM)
+- Task schema: JSON Schema with UUID, task_type, priority, payload, status, result
+- Dispatcher script: scripts/dispatch_task.py (CLI for sending tasks)
+- Receiver script: scripts/receive_task.py (Flask webhook server for @hemesmsibot)
+- Auth: X-Inter-Agent-Token header, X-Agent-Source header
+- Task types: execute_code, research, analysis, file_operation, workflow_trigger, n8n_pipeline, docker_operation, documentation_update, skill_creation, system_check, custom
+- Conventions: @handle + name references, ISO 8601 timestamps, Brain-relative paths
