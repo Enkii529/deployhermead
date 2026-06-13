@@ -529,10 +529,14 @@ mcp_servers:
     env:
       N8N_API_URL: http://127.0.0.1:5678/api/v1
       N8N_BASE_URL: http://127.0.0.1:5678
-      N8N_API_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiNDY0YzA3Zi02MzJhLTQ2ODctYjc3Ny0wOWQ2NDA5NTE4NWEiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwianRpIjoiZTk1ZTBlMGYtNzQ4YS00YTMyLWE0NzAtZDA0Zjk3MmJhZmY1IiwiaWF0IjoxNzc4MjU0ODgwLCJleHAiOjE3ODU5ODg4MDB9.OtLtzy6o-L11k30Iq5F0Cw-LCukXt9p1zrVwDdLde3Q
+      N8N_API_KEY: eyJhbG...de3Q
       MCP_MODE: stdio
       LOG_LEVEL: error
       DISABLE_CONSOLE_OUTPUT: 'true'
+  notebooklm:
+    command: notebooklm-mcp
+    args: []
+    env: {}
 instructions:
   integration: full
 

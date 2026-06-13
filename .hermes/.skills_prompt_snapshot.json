@@ -349,6 +349,10 @@
       1778221944324524388,
       8412
     ],
+    "research/last30days/SKILL.md": [
+      1781309961161789293,
+      130813
+    ],
     "research/llm-wiki/SKILL.md": [
       1778726768799414973,
       20113
@@ -1920,6 +1924,19 @@
         "fallback_for_toolsets": [
           "web"
         ],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "last30days",
+      "category": "research",
+      "frontmatter_name": "last30days",
+      "description": "Research what people actually say about any topic in the ...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
         "requires_toolsets": [],
         "fallback_for_tools": [],
         "requires_tools": []
