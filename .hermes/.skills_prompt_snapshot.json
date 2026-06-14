@@ -425,6 +425,10 @@
       1778726768802414974,
       7229
     ],
+    "understand-briefing/SKILL.md": [
+      1781387883815464605,
+      8140
+    ],
     "yuanbao/SKILL.md": [
       1778726768802414974,
       3795
@@ -2235,6 +2239,19 @@
         "macos",
         "windows"
       ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "understand-briefing",
+      "category": "understand-briefing",
+      "frontmatter_name": "understand-briefing",
+      "description": "Break down articles, PDFs, webpages, markdown, transcript...",
+      "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],
